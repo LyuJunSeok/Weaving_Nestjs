@@ -7,7 +7,7 @@ import { ConfigModule } from '@nestjs/config';
 import * as oracledb from 'oracledb';
 import { DataSource } from 'typeorm';
 import { TypeOrmModule, TypeOrmModuleAsyncOptions } from '@nestjs/typeorm';
-import { oraORMConfig } from './config/orm.config';
+import { oraORMConfig } from './zTestFiles/orm.config';
 import { validationSchema } from './config/validationSchema';
 
 import { LoggingModule } from './system/logging/logging.module';

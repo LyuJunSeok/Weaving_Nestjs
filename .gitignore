@@ -4,6 +4,7 @@
 
 # envs
 /envs
+.env
 
 # Logs
 logs
@@ -16,3 +17,7 @@ lerna-debug.log*
 
 # OS
 .DS_Store
+
+# TEST Files
+/zTest
+/zTestFiles
